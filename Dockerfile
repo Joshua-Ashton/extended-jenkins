@@ -10,3 +10,6 @@ RUN mv steam-runtime-sdk_2013-09-05 steam-runtime
 RUN chown jenkins:jenkins * -R
 
 USER jenkins
+
+WORKDIR /valve
+RUN ./setup.sh
