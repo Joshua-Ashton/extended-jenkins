@@ -11,5 +11,5 @@ RUN chown jenkins:jenkins * -R
 
 USER jenkins
 
-WORKDIR /valve
+WORKDIR /valve/steam-runtime
 RUN ./setup.sh
